@@ -1,0 +1,64 @@
+.Passport {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed container width */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Center text */
+  }
+  
+.parent > div {
+    flex: 0 0 45%; /* Set the width of each item to 45% of the container width */
+    margin: 10px; /* Add some margin around each item */
+  }
+  
+.Passport {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+  }
+  
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-container {
+  background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.title-text {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.full-resume {
+ font-weight: bold;
+ color: #2ebf91;
+}
+
+.nav-item {
+  font-weight: bold;
+}
